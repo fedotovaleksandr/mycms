@@ -29,7 +29,7 @@ if(!empty($item->data->color) && is_array($item->data->color)) {
                 <?php foreach($item->photos as $photo) : ?>
                     <?= $photo->box(null, 100) ?>
                 <?php endforeach;?>
-                <?php Catalog::plugin() ?>
+                <?php //Catalog::plugin() ?>
             </div>
         <?php endif; ?>
     </div>

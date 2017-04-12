@@ -9,13 +9,13 @@ $config = [
     'id' => 'app',
     'basePath' => $basePath,
     'bootstrap' => ['log'],
-    'language' => 'en-US',
+    'language' => 'ru-RU',
     'runtimePath' => $webroot . '/runtime',
     'vendorPath' => $webroot . '/vendor',
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => '9SlrvmRVuHSaLrGj46gGng0qQePP_uXI',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',

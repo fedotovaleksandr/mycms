@@ -29,7 +29,7 @@ $this->title = $page->seo('title', $page->model->title);
     <?php foreach(Gallery::last(6) as $photo) : ?>
         <?= $photo->box(180, 135) ?>
     <?php endforeach;?>
-    <?php Gallery::plugin() ?>
+    <?php //Gallery::plugin() ?>
 </div>
 
 <br/>
