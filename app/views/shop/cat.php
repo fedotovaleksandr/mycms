@@ -4,7 +4,7 @@ use yii\helpers\Url;
 use yii\widgets\ActiveForm;
 
 $this->title = $cat->seo('title', $cat->model->title);
-$this->params['breadcrumbs'][] = ['label' => 'Shop', 'url' => ['shop/index']];
+$this->params['breadcrumbs'][] = ['label' => 'Services', 'url' => ['shop/index']];
 $this->params['breadcrumbs'][] = $cat->model->title;
 ?>
 <h1><?= $cat->seo('h1', $cat->title) ?></h1>

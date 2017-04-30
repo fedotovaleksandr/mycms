@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $news->model->title;
         <?php foreach($news->photos as $photo) : ?>
             <?= $photo->box(100, 100) ?>
         <?php endforeach;?>
-        <?php News::plugin() ?>
+        <?php //News::plugin() ?>
     </div>
     <br/>
 <?php endif; ?>

@@ -30,7 +30,7 @@ class ShopController extends \yii\web\Controller
         return $this->render('cat', [
             'cat' => $cat,
             'items' => $cat->items([
-                'pagination' => ['pageSize' => 2],
+                'pagination' => ['pageSize' => 3],
                 'filters' => $filters
             ]),
             'filterForm' => $filterForm

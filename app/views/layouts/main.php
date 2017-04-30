@@ -19,7 +19,7 @@ $goodsCount = count(Shopcart::goods());
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?= Url::home() ?>">Easyii shop</a>
+                    <a class="navbar-brand" href="<?= Url::home() ?>">Мой сервис</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="navbar-menu">
@@ -27,10 +27,10 @@ $goodsCount = count(Shopcart::goods());
                         'options' => ['class' => 'nav navbar-nav'],
                         'items' => [
                             ['label' => 'Home', 'url' => ['site/index']],
-                            ['label' => 'Shop', 'url' => ['shop/index']],
+                            ['label' => 'Services', 'url' => ['shop/index']],
                             ['label' => 'News', 'url' => ['news/index']],
-                            ['label' => 'Articles', 'url' => ['articles/index']],
-                            ['label' => 'Gallery', 'url' => ['gallery/index']],
+                            //['label' => 'Articles', 'url' => ['articles/index']],
+                            //['label' => 'Gallery', 'url' => ['gallery/index']],
                             ['label' => 'Guestbook', 'url' => ['guestbook/index']],
                             ['label' => 'FAQ', 'url' => ['faq/index']],
                             ['label' => 'Contact', 'url' => ['/contact/index']],
@@ -64,13 +64,13 @@ $goodsCount = count(Shopcart::goods());
     <div class="container footer-content">
         <div class="row">
             <div class="col-md-2">
-                Subscribe to newsletters
+                Subscribe to us
             </div>
             <div class="col-md-6">
                 <?php if(Yii::$app->request->get(Subscribe::SENT_VAR)) : ?>
                     You have successfully subscribed
                 <?php else : ?>
-                    <?= Subscribe::form() ?>
+                    <?//= Subscribe::form() ?>
                 <?php endif; ?>
             </div>
             <div class="col-md-4 text-right">

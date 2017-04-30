@@ -37,7 +37,7 @@ if(!empty($item->data->color) && is_array($item->data->color)) {
         <div class="row">
             <div class="col-md-8">
                 <h2>
-                    <span class="label label-warning"><?= $item->price ?>$</span>
+                    <span class="label label-warning"><?= $item->price ?></span>
                     <?php if($item->discount) : ?>
                         <del class="small"><?= $item->oldPrice ?></del>
                     <?php endif; ?>

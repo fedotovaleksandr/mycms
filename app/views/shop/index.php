@@ -37,7 +37,7 @@ function renderNode($node){
     <div class="col-md-4">
         <?= $this->render('_search_form', ['text' => '']) ?>
 
-        <h4>Last items</h4>
+        <h4>Популярные запросы</h4>
         <?php foreach(Catalog::last(3) as $item) : ?>
             <p>
                 <?= Html::img($item->thumb(30)) ?>

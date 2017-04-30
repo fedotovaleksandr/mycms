@@ -48,7 +48,7 @@ $this->title = $page->seo('title', $page->model->title);
 <hr/>
 
 
-<div class="text-center">
+<!--<div class="text-center">
     <h2>Last article from category #1</h2>
     <br/>
     <div class="row text-left">
@@ -62,7 +62,7 @@ $this->title = $page->seo('title', $page->model->title);
             <?= $article->short ?>
         </div>
     </div>
-</div>
+</div> -->
 
 <br/>
 <hr/>
