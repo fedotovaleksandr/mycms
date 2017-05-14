@@ -42,7 +42,7 @@ function renderNode($node){
             <p>
                 <?= Html::img($item->thumb(30)) ?>
                 <?= Html::a($item->title, ['/shop/view', 'slug' => $item->slug]) ?><br/>
-                <span class="label label-warning"><?= $item->price ?>$</span>
+                <span class="label label-warning"><?= $item->price ?>руб.</span>
             </p>
         <?php endforeach; ?>
     </div>

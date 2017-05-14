@@ -1,0 +1,38 @@
+Message-ID: <be314e7272433d3cdab0d0fb664e20fb@ifmo>
+Date: Sun, 09 Apr 2017 01:37:08 +0300
+Subject: New order
+From: noreply@ifmo.ru
+To: artur.gilmanov.93@mail.ru
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1491691028_1fe96d791a15109bc84d81dd949ac8df_=_"
+
+
+--_=_swift_v4_1491691028_1fe96d791a15109bc84d81dd949ac8df_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+New order created #1.
+You can view it here.
+
+--_=_swift_v4_1491691028_1fe96d791a15109bc84d81dd949ac8df_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3=
+.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns=3D"http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8" />
+        <title>New order</title>
+            </head>
+    <body>
+       =20
+<p>New order created <b>#1</b>.</p>
+<p>You can view it <a href=3D"http://ifmo/admin/shopcart/a/view/1">here</a>=
+.</p>        </body>
+    </html>
+
+
+--_=_swift_v4_1491691028_1fe96d791a15109bc84d81dd949ac8df_=_--

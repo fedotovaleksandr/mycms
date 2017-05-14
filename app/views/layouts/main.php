@@ -26,14 +26,14 @@ $goodsCount = count(Shopcart::goods());
                     <?= Menu::widget([
                         'options' => ['class' => 'nav navbar-nav'],
                         'items' => [
-                            ['label' => 'Home', 'url' => ['site/index']],
-                            ['label' => 'Services', 'url' => ['shop/index']],
-                            ['label' => 'News', 'url' => ['news/index']],
+                            ['label' => 'Главня', 'url' => ['site/index']],
+                            ['label' => 'Услуги', 'url' => ['shop/index']],
+                            ['label' => 'Новости и акции', 'url' => ['news/index']],
                             //['label' => 'Articles', 'url' => ['articles/index']],
                             //['label' => 'Gallery', 'url' => ['gallery/index']],
-                            ['label' => 'Guestbook', 'url' => ['guestbook/index']],
+                            //['label' => 'Guestbook', 'url' => ['guestbook/index']],
                             ['label' => 'FAQ', 'url' => ['faq/index']],
-                            ['label' => 'Contact', 'url' => ['/contact/index']],
+                            ['label' => 'Контакты', 'url' => ['/contact/index']],
                         ],
                     ]); ?>
                     <a href="<?= Url::to(['/shopcart']) ?>" class="btn btn-default navbar-btn navbar-right" title="Complete order">

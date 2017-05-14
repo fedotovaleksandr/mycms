@@ -7,12 +7,6 @@
     <div class="col-md-10">
         <p><?= Html::a($item->title, ['shop/view', 'slug' => $item->slug]) ?></p>
         <p>
-            <span class="text-muted">Storage:</span> <?= $item->data->storage ?> GB
-            <br/>
-            <span class="text-muted">Touchscreen:</span> <?= $item->data->touchscreen ? 'Yes' : 'No' ?>
-            <br/>
-            <span class="text-muted">CPU cores:</span> <?= $item->data->cpu ?>
-            <br/>
             <?php if(!empty($item->data->features) ) : ?>
                 <span class="text-muted">Features:</span> <?= implode(', ', $item->data->features) ?>
             <?php endif; ?>
@@ -21,7 +15,7 @@
             <?php if($item->discount) : ?>
                 <del class="small"><?= $item->oldPrice ?></del>
             <?php endif; ?>
-            <?= $item->price ?>$
+            <?= $item->price ?>руб.
         </h3>
     </div>
 </div>

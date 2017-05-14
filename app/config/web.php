@@ -9,6 +9,11 @@ $config = [
     'id' => 'app',
     'basePath' => $basePath,
     'bootstrap' => ['log'],
+	'modules' => [
+			'lk' => [
+				'class' => 'app\modules\lk\Module',
+        ],
+	],
     'language' => 'ru-RU',
     'runtimePath' => $webroot . '/runtime',
     'vendorPath' => $webroot . '/vendor',
@@ -48,6 +53,7 @@ $config = [
                 ],
             ],
         ],
+		
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -58,6 +64,7 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
+		
     ],
     'params' => $params,
 ];

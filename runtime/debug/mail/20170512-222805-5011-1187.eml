@@ -1,0 +1,68 @@
+Message-ID: <cc86dbd9634eb54fdd8a1fd01e9c8779@ifmo>
+Date: Fri, 12 May 2017 22:28:05 +0300
+Subject: Your order status changed
+From: noreply@ifmo.ru
+To: test@mail.ru
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1494617285_042aa33fda5ceb8d03cc5906e86ac863_=_"
+
+
+--_=_swift_v4_1494617285_042aa33fda5ceb8d03cc5906e86ac863_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+The status of your order #1 changed.
+New status: =D0=92=D0=BE=D0=B2=D0=B7=D1=80=D0=B0=D1=82
+
+Item
+Quantity
+Unit price
+Total
+
+Total: 0
+
+You can view it here.
+
+This is an automaticall=
+y generated email =E2=80=93 please do not reply to it.
+
+--_=_swift_v4_1494617285_042aa33fda5ceb8d03cc5906e86ac863_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3=
+.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns=3D"http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8" />
+        <title>Your order status changed</title>
+            </head>
+    <body>
+       =20
+<p>The status of your order <b>#1</b> changed.</p>
+<p>New status: <b>=D0=92=D0=BE=D0=B2=D0=B7=D1=80=D0=B0=D1=82</b></p>
+<br>
+<table border=3D"1">
+    <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Unit price</th>
+        <th>Total</th>
+    </tr>
+        <tr>
+        <td colspan=3D"5" align=3D"right">
+            <b>Total: 0</b>
+        </td>
+    </tr>
+</table>
+<p>You can view it <a href=3D"http://ifmo/shopcart/order/1?token=3D1AGnaW6H=
+S_3HkBdAatRxsUeo6JqvScNT">here</a>.</p>
+<hr>
+<p>This is an automatically generated email =E2=80=93 please do not reply t=
+o it.</p>        </body>
+    </html>
+
+
+--_=_swift_v4_1494617285_042aa33fda5ceb8d03cc5906e86ac863_=_--
