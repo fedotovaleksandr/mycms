@@ -1,0 +1,31 @@
+{
+  "name": "mycms",
+  "homepage": "_",
+  "authors": [
+    "ArthurGi"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+    "inputmask": "jquery.inputmask#^3.3.6",
+    "microplugin": "^0.0.3",
+    "punycode": "^2.1.0",
+    "selectize": "^0.12.4",
+    "sifter": "^0.5.2",
+    "typeahead.js": "^0.11.1",
+    "yii2-pjax": "^2.0.6",
+    "jquery.switcher": "^1.2.4"
+  }
+}

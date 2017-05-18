@@ -1,3 +1,5 @@
 .idea
-
+db_data
+app/logs
 Thumbs.db
+vendor
