@@ -5,6 +5,7 @@ COPY ./php.pool.conf /usr/local/etc/php-fpm.d/
 
 RUN apt-get update && apt-get install -y \
     git \
+    bower \
     libfreetype6-dev \
     libicu-dev \
     libjpeg62-turbo-dev \
